@@ -1,65 +1,75 @@
 #caixa1{
-    background-color: blue;
-    width: 100%;
+    background-color: blue; /*cor de fundo azul*/
+    width: 100%; /*ocupa toda a largura do contêiner pai*/
 }
+
 #container1{
-    height: 400px;
-    width: 100%;
-    border: 4px solid black;
-    display: flex;
-    flex-wrap: wrap;
+    height: 400px; /*altura fixa do contêiner*/
+    width: 100%; /*largura total*/
+    border: 4px solid black; /*borda preta de 4px*/
+    display: flex; /*layout flexível para os elementos filhos*/
+    flex-wrap: wrap; /*permite que os elementos quebrem linha quando necessário*/
 }
+
 #caixa4{
-    max-width: 400px;
-    min-width: 400px;
-    background-color: green;
+    max-width: 400px; /*largura máxima de 400px*/
+    min-width: 400px; /*largura mínima de 400px (fica fixa em 400px)*/
+    background-color: green; /*cor de fundo verde*/
 }
+
 #caixa2{
-    max-width: 200px;
-    min-width: 200px;
-    background-color: yellow;
+    max-width: 200px; /*largura máxima de 200px*/
+    min-width: 200px; /*largura mínima de 200px (fica fixa em 200px)*/
+    background-color: yellow; /*cor de fundo amarela*/
 }
+
 #caixa3{
-    max-width: 500px;
-    min-width: 500px;
-    background-color: red;
+    max-width: 500px; /*largura máxima de 500px*/
+    min-width: 500px; /*largura mínima de 500px (fica fixa em 500px)*/
+    background-color: red; /*cor de fundo vermelha*/
 }
 
 .caixas{
-    height: 500px;
+    height: 500px; /*altura fixa para elementos com essa classe*/
 }
+
 #caixa5{
-    background-color: aqua;
-    min-width: 50%
+    background-color: aqua; /*cor de fundo azul-claro (ciano)*/
+    min-width: 50%; /*largura mínima de 50% do contêiner pai*/
 }
+
 #caixa6{
-    background-color: lightpink;
-    min-width: 50%
+    background-color: lightpink; /*cor de fundo rosa claro*/
+    min-width: 50%; /*largura mínima de 50% do contêiner pai*/
 }
+
 #caixa7{
-    background-color: blueviolet;
+    background-color: blueviolet; /*cor de fundo violeta azulado*/
 }
+
 #caixa8{
-    background-color: orange;
-    min-width: 400px;
+    background-color: orange; /*cor de fundo laranja*/
+    min-width: 400px; /*largura mínima de 400px*/
 }
+
 #container2{
-    display: flex;
-    /* flex-direction: row; */
-    flex-wrap: wrap;     /* Descer os objetos automaticamente, se não couber */
+    display: flex; /*layout flexível para os filhos*/
+    /* flex-direction: row; */ /*comentado: direção padrão em linha*/
+    flex-wrap: wrap; /*permite quebra de linha se os itens não couberem*/
 }
 
 .box{
-    border: 4px solid red;
-    height: 300px;
-    width: 25%;
-    min-width: 300px;
-    font-size: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border: 4px solid red; /*borda vermelha de 4px*/
+    height: 300px; /*altura fixa de 300px*/
+    width: 25%; /*largura proporcional (25% do contêiner)*/
+    min-width: 300px; /*largura mínima de 300px para manter legibilidade/responsividade*/
+    font-size: 100px; /*tamanho da fonte grande*/
+    display: flex; /*layout flexível interno para alinhar conteúdo*/
+    justify-content: center; /*centralizar conteúdo horizontalmente*/
+    align-items: center; /*centralizar conteúdo verticalmente*/
 }
+
 #container3{
-    display: flex;
-    flex-wrap: wrap-reverse;
+    display: flex; /*layout flexível*/
+    flex-wrap: wrap-reverse; /*quebra de linha invertida (de baixo para cima)*/
 }
